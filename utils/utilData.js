@@ -30,3 +30,5 @@ export async function getrecordAndWrite(nameFile) {
   const text = await getListFromServer("/transcriptions");
   writeToJson(text, nameFile);
 }
+
+
