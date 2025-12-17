@@ -31,4 +31,14 @@ export async function getrecordAndWrite(nameFile) {
   writeToJson(text, nameFile);
 }
 
-
+export async function readData(nameFile){
+  return new Promise((resolve, reject) => {
+    fs.readFile(nameFile, "utf8", (err, data) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(data);
+      }
+    });
+  });
+}
