@@ -1,0 +1,20 @@
+{
+  "name": "test-find-dangerous-pepople",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yehouda-12/TEST-FIND-DANGEROUS-PEOPLE#readme",
+  "bugs": {
+    "url": "https://github.com/Yehouda-12/TEST-FIND-DANGEROUS-PEOPLE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yehouda-12/TEST-FIND-DANGEROUS-PEOPLE.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
